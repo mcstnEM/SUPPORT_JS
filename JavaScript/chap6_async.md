@@ -188,3 +188,14 @@ const words = ['Bonjour', ' ', 'le', ' ', 'monde']
    - Récapitulation des concepts clés de l'asynchrone en JavaScript.
    - Application des connaissances dans des scénarios pratiques.
    - Importance de choisir la méthode adaptée en fonction du contexte.
+
+# Ressouces & liens
+
+### Utiliser l'api fetch
+https://developer.mozilla.org/fr/docs/Web/API/Fetch_API/Using_Fetch
+
+### Les promesses
+https://www.notion.so/mathieu-constantin/Les-Promises-0c1f280795654db2a85af78d26d89f12
+
+### Exécution des promesses
+https://www.lydiahallie.com/blog/promise-execution?ref=dailydev
