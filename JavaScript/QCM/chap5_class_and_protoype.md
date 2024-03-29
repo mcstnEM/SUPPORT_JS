@@ -2,61 +2,61 @@
 
 1. Qu'est-ce qu'une classe en JavaScript ?
    - [ ] A) Une fonction spéciale pour créer des objets
-   - [ ] B) Un sucre syntaxique pour le système de prototypes
+   - [x] B) Un sucre syntaxique pour le système de prototypes
    - [ ] C) Un nouveau type de données
    - [ ] D) Une structure de contrôle
 
 2. Comment définit-on une classe en JavaScript ?
    - [ ] A) En utilisant le mot-clé `function`
    - [ ] B) En utilisant le mot-clé `prototype`
-   - [ ] C) En utilisant le mot-clé `class`
+   - [x] C) En utilisant le mot-clé `class`
    - [ ] D) En utilisant le mot-clé `new`
 
 3. À quoi sert le mot-clé `extends` dans une déclaration de classe ?
    - [ ] A) À créer une nouvelle instance de la classe
    - [ ] B) À dupliquer une classe
-   - [ ] C) À hériter d'une autre classe
+   - [x] C) À hériter d'une autre classe
    - [ ] D) À initialiser une classe
 
 4. Que fait la fonction `super` dans un constructeur de sous-classe ?
    - [ ] A) Elle appelle une méthode de la classe parente
    - [ ] B) Elle crée une super-classe
-   - [ ] C) Elle appelle le constructeur de la classe parente
+   - [x] C) Elle appelle le constructeur de la classe parente
    - [ ] D) Elle vérifie les permissions
 
 5. Comment surcharger une méthode héritée ?
    - [ ] A) En l'appelant directement
-   - [ ] B) En la redéfinissant dans la classe enfant
+   - [x] B) En la redéfinissant dans la classe enfant
    - [ ] C) En utilisant `super.method()`
    - [ ] D) En modifiant le prototype de la classe parente
 
 6. Quel est le résultat de l'héritage en JavaScript ?
    - [ ] A) Une copie exacte de la classe parente
    - [ ] B) Une relation directe entre deux fonctions
-   - [ ] C) La possibilité de partager des propriétés et méthodes entre classes
+   - [x] C) La possibilité de partager des propriétés et méthodes entre classes
    - [ ] D) Une limitation dans la création d'objets
 
 7. Comment peut-on accéder à une méthode de la classe parente depuis une classe enfant ?
    - [ ] A) En utilisant `parent.method()`
    - [ ] B) En utilisant `super.method()`
-   - [ ] C) En utilisant `this.method()`
+   - [x] C) En utilisant `this.method()`
    - [ ] D) En utilisant `method()`
 
 8. Quelle est la principale utilité des classes en JavaScript ?
    - [ ] A) Pour créer des interfaces graphiques
    - [ ] B) Pour effectuer des calculs complexes
-   - [ ] C) Pour simplifier la création et la gestion des objets
+   - [x] C) Pour simplifier la création et la gestion des objets
    - [ ] D) Pour augmenter la performance du code
 
 9. Que se passe-t-il si on oublie d'appeler `super` dans un constructeur de sous-classe ?
    - [ ] A) Le constructeur de la classe parente est appelé automatiquement
-   - [ ] B) Une erreur est générée
-   - [ ] C) Les propriétés de la classe parente ne sont pas initialisées
-   - [ ] D) B et C sont correctes
+   - [x] B) Une erreur est générée
+   - [x] C) Les propriétés de la classe parente ne sont pas initialisées
+   - [x] D) B et C sont correctes
 
 10. Peut-on avoir des méthodes statiques dans une classe JavaScript ?
     - [ ] A) Non, JavaScript ne supporte pas les méthodes statiques
-    - [ ] B) Oui, mais elles ne peuvent pas accéder à `this` ou à des méthodes non statiques
+    - [x] B) Oui, mais elles ne peuvent pas accéder à `this` ou à des méthodes non statiques
     - [ ] C) Oui, et elles peuvent accéder à `this` et à d'autres méthodes statiques
     - [ ] D) Oui, mais elles ne sont pas héritées par les sous-classes
 
@@ -65,24 +65,24 @@
 1. Que représente le prototype en JavaScript ?
    - [ ] A) Une copie de tous les objets
    - [ ] B) Un modèle pour créer de nouveaux objets
-   - [ ] C) Un objet parent dont d'autres objets peuvent hériter des propriétés et méthodes
+   - [x] C) Un objet parent dont d'autres objets peuvent hériter des propriétés et méthodes
    - [ ] D) Une méthode pour dupliquer des fonctions
 
 2. Comment peut-on créer un nouvel objet qui hérite d'un prototype spécifique en JavaScript ?
    - [ ] A) En utilisant la méthode `new Prototype()`
-   - [ ] B) En utilisant la méthode `Object.create(prototypeObjet)`
+   - [x] B) En utilisant la méthode `Object.create(prototypeObjet)`
    - [ ] C) En déclarant une nouvelle classe
    - [ ] D) En utilisant `prototype = new Object()`
 
 3. Quel est le principal avantage de l'utilisation des prototypes pour ajouter des méthodes aux constructeurs JavaScript ?
-   - [ ] A) Cela réduit la quantité de mémoire utilisée par les applications
+   - [x] A) Cela réduit la quantité de mémoire utilisée par les applications
    - [ ] B) Cela augmente la vitesse d'exécution du code
    - [ ] C) Cela permet de créer des méthodes privées
    - [ ] D) Cela rend le code plus facile à écrire
 
 4. Quelle est la différence principale entre une fonction constructeur et une classe en JavaScript ?
    - [ ] A) Les fonctions constructeur ne peuvent pas utiliser le mot-clé `this`
-   - [ ] B) Les classes sont des fonctions constructeur avec une syntaxe plus claire
+   - [x] B) Les classes sont des fonctions constructeur avec une syntaxe plus claire
    - [ ] C) Les fonctions constructeur ne permettent pas l'héritage
    - [ ] D) Les classes ne peuvent pas avoir de propriétés statiques
 
